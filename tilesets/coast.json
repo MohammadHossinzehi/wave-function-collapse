@@ -1,0 +1,10 @@
+{
+  "description": "Land (L) and sea (S) with asymmetric edge labels. Labels are read clockwise, so a shore only fits the shore that continues it.",
+  "tiles": [
+    { "name": "land",   "weight": 3, "edges": ["LLL", "LLL", "LLL", "LLL"], "pixels": ["###", "###", "###"] },
+    { "name": "sea",    "weight": 4, "edges": ["SSS", "SSS", "SSS", "SSS"], "pixels": ["~~~", "~~~", "~~~"] },
+    { "name": "shore",  "weight": 2, "edges": ["LLL", "LSS", "SSS", "SSL"], "pixels": ["###", "~~~", "~~~"] },
+    { "name": "cape",   "weight": 1, "edges": ["LSS", "SSS", "SSS", "SSL"], "pixels": ["#~~", "~~~", "~~~"] },
+    { "name": "bay",    "weight": 1, "edges": ["LLL", "LSS", "SSL", "LLL"], "pixels": ["###", "#~~", "#~~"] }
+  ]
+}
