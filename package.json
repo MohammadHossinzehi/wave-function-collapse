@@ -1,0 +1,14 @@
+{
+  "name": "wave-function-collapse",
+  "version": "1.0.0",
+  "description": "Wave Function Collapse procedural generator with overlapping and tiled models, AC4 style propagation and trail based backtracking. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "wfc": "cli.js" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "npx --yes http-server -c-1 -p 8080 ."
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
