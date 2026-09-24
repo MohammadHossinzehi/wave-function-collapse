@@ -1,0 +1,11 @@
+{
+  "description": "Pipe network. Edge label 010 means a pipe leaves through the middle of that side.",
+  "tiles": [
+    { "name": "empty",    "weight": 4,   "edges": ["000", "000", "000", "000"], "pixels": ["...", "...", "..."] },
+    { "name": "straight", "weight": 2,   "edges": ["010", "000", "010", "000"], "pixels": [".#.", ".#.", ".#."] },
+    { "name": "corner",   "weight": 1.5, "edges": ["010", "010", "000", "000"], "pixels": [".#.", ".##", "..."] },
+    { "name": "tee",      "weight": 0.6, "edges": ["010", "010", "010", "000"], "pixels": [".#.", ".##", ".#."] },
+    { "name": "cross",    "weight": 0.3, "edges": ["010", "010", "010", "010"], "pixels": [".#.", "###", ".#."] },
+    { "name": "end",      "weight": 0.4, "edges": ["010", "000", "000", "000"], "pixels": [".#.", ".o.", "..."] }
+  ]
+}
